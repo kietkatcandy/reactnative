@@ -14,7 +14,7 @@ const Main = () => {
             <DirectoryScreen 
                 campsites={campsites} 
                 onPress={(campsiteId) => setSelectedCampsiteId(campsiteId)}
-            />;
+            />
             <CampsiteInfoScreen
                 campsite= {
                     campsites.filter(
@@ -23,7 +23,7 @@ const Main = () => {
                 }
             />
         </View>
-    ) 
+    ); 
 };
 
 export default Main;

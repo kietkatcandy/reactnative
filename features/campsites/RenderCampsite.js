@@ -14,13 +14,15 @@ const RenderCampsite = ({ campsite }) => {
                                 fontSize: 20
                             }}
                         >
-                        
+                            {campsite.name}
                         </Text>
                     </View>
                 </Card.Image>
                 <Text style={{margin: 20}}> {campsite.desciption}</Text>
             </Card>
-        )
+        );
     }
     return <View/>;
 };
+
+export default RenderCampsite;
